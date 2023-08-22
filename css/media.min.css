@@ -1,0 +1,3445 @@
+@media (max-width:767px) {
+    nav .container {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px 0 0
+    }
+    nav form,
+    ul.navLinks {
+        display: none
+    }
+    .logo {
+        width: 80%;
+        padding-left: 10px
+    }
+    .logo a {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .logo a span {
+        font-size: 27px;
+        padding-left: 5px
+    }
+    .logo a img {
+        padding: 0 7px 0 0;
+        width: 60px;
+        height: 40px;
+        margin-top: 2px
+    }
+    ul.navLinks {
+        width: 100%;
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #592a20;
+        ;
+        text-align: left;
+        align-items: flex-start;
+        border-top: 1px solid #f5faf1;
+        margin-top: 8px
+    }
+    ul.navLinks {
+        display: flex
+    }
+    ul.navLinks.hidden {
+        display: none
+    }
+    ul.navLinks li {
+        width: 100%;
+        padding-top: 5px;
+        line-height: 50px
+    }
+    ul.navLinks li.services {
+        position: static;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #faf5f1
+    }
+    ul.navLinks li a {
+        padding-left: 10px;
+        font-size: 18px;
+        width: 100%;
+        padding-top: 0;
+        line-height: 50px
+    }
+    ul.navLinks li.services i {
+        padding: 10px;
+        line-height: 25px;
+        width: 12%
+    }
+    ul.navLinks li.services a {
+        line-height: 40px;
+        width: 83%;
+        padding-top: 0
+    }
+    ul.servicesBox {
+        width: 100%;
+        position: static;
+        display: flex;
+        background-color: #592a20;
+        ;
+    }
+    .navLinks .servicesBox.hidden {
+        display: none
+    }
+    ul.navLinks li.services ul.servicesBox li a {
+        padding-left: 0
+    }
+    ul.navLinks li.services ul.servicesBox li:first-of-type {
+        border-top: 1px solid #faf5f1
+    }
+    ul.navLinks li.services.active ul.servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+        color: #707070
+    }
+    ul.navLinks li.services ul.servicesBox li:hover a {
+        color: #707070
+    }
+    ul.navLinks li.active {
+        background: #dc864e
+    }
+    nav .navIcons {
+        width: 20%;
+        margin: 9px 0 0
+    }
+    nav .navIcons .Menu {
+        margin-right: 0;
+        padding: 8px 0;
+        display: inline-block;
+    }
+    nav .navIcons .Menu i {
+        font-size: 20px
+    }
+    a.userIcon {
+        display: none
+    }
+    li.sign {
+        display: flex;
+        padding-bottom: 4px
+    }
+    footer .contactus,
+    footer .links {
+        width: 100%;
+        order: 2;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px
+    }
+    footer .links h3 {
+        padding-top: 60px
+    }
+    footer .links ul {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap
+    }
+    footer .contactus {
+        width: 100%;
+        order: 3
+    }
+    footer .contactus a {
+        margin-bottom: 10px
+    }
+    footer .socialLinks {
+        width: 100%;
+        order: 1
+    }
+    footer h2,
+    footer h3 {
+        font-size: 19px
+    }
+    footer h2 {
+        padding-top: 35px;
+        line-height: 30px
+    }
+    footer h3 {
+        font-size: 18px
+    }
+    footer .contactus a,
+    footer .links .footerLinks li a {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row
+    }
+    footer .contactus a,
+    footer .links .footerLinks li {
+        font-size: 17px;
+        width: 100%
+    }
+    footer .links .footerLinks li {
+        width: 29%;
+        margin-bottom: 15px
+    }
+    footer .links .footerLinks li.sign {
+        width: 50%
+    }
+    .socialLinks ul {
+        width: 80%
+    }
+    .socialLinks ul li a.icon {
+        font-size: 18px
+    }
+    footer .copyRight {
+        width: 100%;
+        order: 4;
+        font-size: 16px;
+    }
+    .Sign .submit label {
+        font-size: 15px
+    }
+    .Sign .container {
+        width: 95%
+    }
+    .Sign h2 {
+        font-size: 20px;
+        margin-bottom: 20px
+    }
+    .signIn,
+    .signUp {
+        width: 95%
+    }
+    .Sign form {
+        width: 86%
+    }
+    .Sign .submit {
+        margin-top: 3%
+    }
+    .Sign .submit label {
+        width: 100%;
+        font-size: 15px
+    }
+    .Sign .submit a {
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        padding-left: 10px;
+        margin-top: 20px
+    }
+    .Sign button.icon:first-of-type {
+        padding-left: 1.4%
+    }
+    .Sign button.icon {
+        width: 11%;
+        border-radius: 5px 0 0 5px;
+        margin-right: -6px
+    }
+    .Sign form .continput {
+        height: 30px
+    }
+    .Sign form .continput button.icon {
+        width: 15%
+    }
+    .Sign form .continput input {
+        width: 84%
+    }
+    .bookShelf .container {
+        width: 90%;
+        padding: 30px 5px;
+    }
+    .bookShelf .container .books {
+        justify-content: center
+    }
+    .bookShelf .container .books .book .image {
+        height: 380px
+    }
+    .bookShelf .container h2 {
+        background: repeating-linear-gradient( 45deg, #FAF5F1 50px, #DC864E);
+        box-shadow: .5px 1px 9px .5px #dc864e;
+        font-size: 30px
+    }
+    .bookShelf .container .btn {
+        margin: 10px 0px;
+        box-shadow: .5px .5px 9px .5px #dc864e;
+        background: repeating-linear-gradient(45deg, #dc864e, #faf5f1 89%);
+    }
+    .bookShelf .container .books .book .image .overflow a {
+        width: 39px;
+        height: 39px;
+        font-size: 30px
+    }
+    .bookShelf .container .books {
+        width: 95%;
+        margin: auto;
+        justify-content: space-between
+    }
+    .bookShelf .container .books .book {
+        width: 300px;
+        margin: auto;
+        height: 450px;
+        margin-bottom: 50px
+    }
+    .bookShelf .container .controls {
+        display: flex;
+    }
+    section.mainSlider {
+        background: url(../images/slider.png)no-repeat fixed 50%;
+        max-width: 100%;
+    }
+    section.mainSlider .container,
+    .ourServices .container {
+        width: 95%;
+        border-width: 5px;
+        ;
+    }
+    section.mainSlider .container h1,
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 25px;
+    }
+    section.ourServices .container h2 {
+        width: 100%;
+    }
+    section.ourServices .container h3 {
+        font-size: 22px;
+    }
+    section.mainSlider .container p,
+    section.ourServices .container p {
+        font-size: 17px;
+        width: 85%;
+        line-height: 37px;
+    }
+    section.ourServices .container p {
+        font-size: 17px;
+        text-align: center
+    }
+    section.mainSlider .container .btns {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section.mainSlider .container .btns a,
+    section.ourServices .container a {
+        font-size: 24px;
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 20px
+    }
+    .ourServices .container>div {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        ;
+    }
+    .ourServices .container>div:last-of-type {
+        margin-bottom: 20px;
+        ;
+    }
+    .ourServices .container>div .images {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-width: 5px;
+        border-bottom: 5px solid #fff;
+        border-top: 5px solid #fff;
+        margin: 20px auto
+    }
+    .ourServices .container .translation .images {
+        order: 0;
+    }
+    .ourServices .container>div .caption {
+        width: 100%;
+        padding: 10px 3px;
+    }
+    .ourServices .container>div .caption p {
+        font-size: 15px;
+    }
+    section.ourServices .container a {
+        width: 85%;
+        display: inline-block;
+        padding: 10px;
+        font-size: 17px;
+        margin: 10px auto;
+    }
+    section.recentlyStories .container {
+        width: 95%;
+        border-width: 5px;
+    }
+    section.recentlyStories .container h2 {
+        width: 90%;
+        font-size: 25px;
+        background: repeating-linear-gradient(-45deg, #DC864E, #FAF5F1 84%);
+        border-radius: 4px;
+    }
+    section.recentlyStories .container .controls {
+        padding: 0px 3px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 18px;
+        padding: 5px;
+        border-width: 3.5px;
+    }
+    section.recentlyStories .container .books {
+        position: relative;
+        width: 80%;
+        z-index: 222;
+        justify-content: space-evenly;
+        margin: auto
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 120px
+    }
+    section.recentlyStories .container .books .book h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    section.recentlyStories .container .books .book .rate {
+        font-size: 10px
+    }
+    section.recentlyStories .container .books .book .image .overflow a {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+    section.recentlyStories .container .books .book {
+        width: 80px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 60%;
+    }
+    .questionsSection .container {
+        width: 90%;
+    }
+    .questionsSection .container h2 {
+        font-size: 25px;
+    }
+    .questionContainer {
+        width: 100%;
+        position: relative;
+        margin-bottom: 35px;
+        color: #9499A6;
+    }
+    .questionContainer p.Answer {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .questionContainer p.question {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+    .questionContainer p.question i {
+        font-size: 18px;
+    }
+    .translationSec .container {
+        width: 96%;
+        border-width: 5px;
+    }
+    .translationSec .container h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .translationSec .container h1:after {
+        width: 200px;
+    }
+    .translationSec .container form {
+        width: 90%;
+        justify-content: center;
+        margin: 10px auto 0px;
+    }
+    .translationSec .container form>div {
+        width: 90%;
+    }
+    .translationSec .container form>div textarea {
+        height: 244px
+    }
+    .translationSec .container form>div .upload p i {
+        font-size: 17px;
+    }
+    .translationSec .container form input[type="submit"] {
+        width: 88%;
+        font-size: 19px;
+    }
+    *::selection {
+        background-color: #fff
+    }
+    .storyDetail .container {
+        width: 96%;
+    }
+    .storyDetail .container h1 {
+        background: repeating-linear-gradient(-45deg, #dc864e, #faf5f1 85%);
+        width: 95%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-size: 30px;
+        ;
+    }
+    .storyDetail .container .detail .story {
+        width: 300px;
+    }
+    .storyDetail .container .detail {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        padding: 20px 5px;
+        margin-bottom: 5px;
+    }
+    .storyDetail .container .detail .story .book {
+        height: 450px;
+    }
+    .storyDetail .container .detail .story .book .image {
+        height: 350px;
+    }
+    .storyDetail .container .detail .bookdetails {
+        width: 85%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 3%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: center;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+    .storyDetail .container .detail .bookdetails li {
+        margin-top: 30px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center
+    }
+    .storyDetail .container .detail .bookdetails li span {
+        font-size: 18px;
+    }
+    .storyDetail .container .detail .bookdetails li:first-of-type {
+        margin-top: 0px;
+    }
+    .storyDetail .container .detail .description a:first-of-type {
+        margin-left: 0px
+    }
+    .storyDetail .container .detail .description {
+        width: 95%;
+        padding-left: 3%;
+        margin-left: 0%;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-top: 10px double #dc864e;
+        padding-top: 10%;
+    }
+    .storyDetail .container .detail .description h3 {
+        margin-bottom: 20px;
+        color: #592a20;
+        width: 100%;
+    }
+    .storyDetail .container .detail .description p {
+        width: 100%;
+        line-height: 36px;
+    }
+    .storyDetail .container .detail .description a {
+        width: 46%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .storyDetail .container .anotherStories {
+        width: 100%;
+    }
+    .storyDetail .container .anotherStories .story {
+        width: 95%;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+    }
+    .storyDetail .container .anotherStories .story .image {
+        height: 350px;
+    }
+    .storyDetail .container .anotherStories h2 {
+        margin: 20px;
+    }
+    .storyDetail .container .anotherStories .story .book {
+        width: 250px;
+        margin: 10px;
+    }
+    section.aboutSlider {
+        background: url(../images/about768.jpg)no-repeat 40% 0%;
+        height: 442px;
+        background-size: cover
+    }
+    section.aboutSlider h1 {
+        padding-top: 60px;
+        padding-bottom: 2px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    section.aboutSlider .container {
+        width: 100%;
+        height: 50%;
+        background: transparent;
+        margin: 0px;
+        border: none;
+        top: 20%;
+    }
+    section.aboutSlider .container a i {
+        top: 50%;
+        left: 30%;
+    }
+    section.aboutSlider .container i {
+        font-size: 19px;
+        border: 1px solid;
+    }
+    section.aboutSlider .container a {
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 3%;
+        width: 30px;
+        height: 50px;
+        margin-top: 1%;
+    }
+    section.aboutSlider .container p {
+        font-size: 17px;
+        width: 85%;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    section.whyus .container {
+        width: 95%;
+        margin: 0px auto;
+        padding: 50px 10px;
+    }
+    section.whyus .container h2 {
+        font-size: 30px;
+        padding: 30px;
+    }
+    section.whyus .container h2::after,
+    section.sendFeedback .container h3::after,
+    section.feedback .container h2::after {
+        margin: 30px auto;
+        width: 80px;
+        height: 5px;
+    }
+    section.sendFeedback .container h3::after {
+        width: 170px;
+        margin: 30px auto 10px;
+    }
+    section.feedback .container h2::after {
+        width: 160px;
+    }
+    section.whyus .container p {
+        width: 93%;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    section.whyus .container .services {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        margin: auto auto;
+    }
+    section.whyus .container .services img {
+        width: 270px;
+        height: 200px;
+        padding: 5px;
+        border-radius: 4px;
+        border-width: 5px;
+        margin: 10px auto
+    }
+    section.whyus .container .services>div {
+        width: 95%;
+        margin-top: 20px
+    }
+    section.whyus .container .services a {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    section.sendFeedback .container {
+        width: 95%;
+        padding: 50px 10px;
+        border-width: 5px;
+    }
+    section.sendFeedback .container h3 {
+        font-size: 25px;
+        padding: 50px 10px 0px;
+        ;
+    }
+    section.sendFeedback .container p {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 20px 10px 40px;
+    }
+    section.sendFeedback .container form {
+        width: 95%;
+    }
+    section.sendFeedback .container form textarea {
+        width: 95%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.sendFeedback .container form input {
+        width: 95%;
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.feedback .container {
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+    }
+    section.feedback .container>div {
+        width: 90%;
+        margin: auto auto;
+        margin-bottom: 70px;
+    }
+    section.feedback .container h2 {
+        font-size: 35px;
+        margin: 50px
+    }
+    section.feedback .container img {
+        width: 80px;
+        height: 80px;
+        border-width: 4px;
+    }
+    section.feedback .container h4 {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+    section.feedback .container p {
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .profile form .userImages {
+        width: 100%;
+        background: url(../images/black-1072366_1920.jpg)no-repeat 0% 0%;
+        background-size: cover;
+        height: 150px;
+    }
+    .profile form .userImages .image {
+        margin: 50px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border-width: 5px;
+    }
+    .profile form .userImages .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .profile form .userImages .overflow {
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        opacity: 0;
+    }
+    .profile form .userImages .overflow p {
+        padding: 10px;
+        width: 100%;
+        padding-top: 16px;
+        font-size: 15px;
+        top: 0;
+        left: 0;
+    }
+    .profile form .container {
+        width: 97%;
+        height: 100%;
+        padding: 100px 20px 50px;
+        border-width: 5px
+    }
+    .profile form .container>div {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .profile form .container>div:last-of-type {
+        margin: 0px;
+    }
+    .profile form .container label {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .profile form .container input {
+        font-size: 15px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .profile form .container input::placeholder {
+        font-size: 15px;
+    }
+    .profile form .container .submit input {
+        background: repeating-linear-gradient(45deg, #dc864e, #faf5f1 94%);
+        font-size: 20px;
+    }
+    .rightProfileBox {
+        top: 73.2px;
+        width: 100%
+    }
+    .rightProfileBox ul {
+        padding: 35px 10px;
+    }
+    .rightProfileBox ul li.image {
+        width: 80%;
+    }
+    .rightProfileBox ul li.image img {
+        width: 70px;
+        height: 70px;
+    }
+    .rightProfileBox ul li a {
+        font-size: 20px;
+    }
+    .rightProfileBox ul li {
+        margin-bottom: 4px;
+        padding: 0px 10px;
+    }
+    .rightProfileBox ul li.image p {
+        font-size: 22px;
+        margin: 15px;
+    }
+    .rightProfileBox ul li p {
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .rightProfileBox ul li.image p.adding {
+        font-size: 30px;
+    }
+    .navIcons img {
+        width: 46px;
+        height: 45px;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+        background: transparent;
+    }
+    .navIcons a.userIcon {
+        background-color: transparent;
+        padding: 10px 0px 50px;
+        width: 60px;
+        height: 45px;
+        border: none;
+        display: flex;
+    }
+    nav .navIcons {
+        width: 40%;
+        display: flex;
+        align-items: flex-start;
+        margin: 0px;
+        justify-content: space-evenly;
+    }
+    nav .navIcons a {
+        width: 47%;
+    }
+    .logo {
+        width: 60%
+    }
+    nav .navIcons .Menu {
+        margin-top: 12px;
+        height: 39px;
+    }
+    body {
+        overflow-x: hidden
+    }
+    ul.navLinks li.services li.active {
+        background: #faf5f1;
+        color: #592a20;
+    }
+    ul.navLinks li.services li.active a {
+        color: #592a20;
+    }
+    footer .copyRight2 {
+        display: flex;
+        order: 3;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        line-height: 30px;
+    }
+    footer .copyRight {
+        display: none;
+    }
+}
+
+@media(min-width:460px) and (max-width:660px) {
+    footer h2 {
+        font-size: 21px
+    }
+    footer .links .footerLinks li {
+        width: 29%;
+        margin-bottom: 15px
+    }
+    footer .copyRight2 {
+        width: 100%;
+        order: 4;
+        font-size: 17px;
+    }
+    .Sign .submit label {
+        width: 50%
+    }
+    .Sign .submit a {
+        width: 50%;
+        text-align: right;
+        padding-left: 0;
+        margin-top: 10px
+    }
+    .bookShelf .container .btn {
+        margin: 10px 0px;
+        box-shadow: .5px .5px 9px .5px #dc864e;
+    }
+    .bookShelf .container .books .book .image {
+        height: 460px
+    }
+    .bookShelf .container .books .book .image .overflow a {
+        width: 60px;
+        height: 60px;
+        font-size: 35px;
+    }
+    .bookShelf .container .books .book {
+        width: 300px;
+    }
+    section.recentlyStories .container .books {
+        position: relative;
+        width: 90%;
+    }
+    section.recentlyStories .container .controls {
+        padding: 0px 15px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 23px;
+        padding: 5px;
+        width: 40px;
+        display: inline-block;
+        border-width: 3.5px;
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 160px
+    }
+    section.recentlyStories .container .books .book .rate {
+        font-size: 10px
+    }
+    section.recentlyStories .container .books .book .image .overflow a {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+    section.recentlyStories .container .books .book {
+        width: 130px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 60%;
+    }
+    .questionsSection .container {
+        width: 90%;
+    }
+    .questionContainer {
+        width: 95%;
+    }
+    .questionContainer p.Answer {
+        font-size: 18px;
+    }
+    .questionContainer p.question {
+        font-size: 18px;
+    }
+    .questionContainer p.question i {
+        font-size: 22px;
+    }
+    .storyDetail .container .detail .story .book .image {
+        height: 350px;
+    }
+}
+
+@media(min-width:661px) and (max-width:767px) {
+    footer h2 {
+        font-size: 23px
+    }
+    footer .links .footerLinks {
+        padding-left: 50px
+    }
+    footer .links .footerLinks li {
+        width: 32%;
+        margin-bottom: 15px;
+    }
+    footer .links .footerLinks li a {
+        justify-content: flex-start
+    }
+    footer .copyRigh2 {
+        width: 100%;
+        order: 4;
+        font-size: 17px;
+        padding-left: 24%
+    }
+    .Sign .submit label {
+        width: 50%
+    }
+    .Sign .submit a {
+        width: 50%;
+        text-align: right;
+        padding-left: 0;
+        margin-top: 10px
+    }
+    .bookShelf .container .books .book .image {
+        height: 460px
+    }
+    .bookShelf .container .btn {
+        display: flex;
+        margin: 10px 0px;
+        box-shadow: .5px .5px 9px .5px #dc864e;
+    }
+    .bookShelf .container .books .book .image .overflow a {
+        width: 45px;
+        height: 45px;
+        font-size: 35px;
+    }
+    section.recentlyStories .container .books {
+        position: relative;
+        width: 90%;
+    }
+    .bookShelf .container .books {
+        width: 58%
+    }
+    section.recentlyStories .container .controls {
+        padding: 0px 15px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 23px;
+        padding: 5px;
+        width: 40px;
+        display: inline-block;
+        border-width: 3.5px;
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 160px
+    }
+    section.recentlyStories .container .books .book .rate {
+        font-size: 10px
+    }
+    section.recentlyStories .container .books .book .image .overflow a {
+        width: 36px;
+        height: 36px;
+        font-size: 24px;
+    }
+    section.recentlyStories .container .books .book {
+        width: 130px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 60%;
+    }
+    .questionsSection .container {
+        width: 90%;
+    }
+    .questionContainer {
+        width: 95%;
+    }
+    .questionContainer p.Answer {
+        font-size: 18px;
+    }
+    .questionContainer p.question {
+        font-size: 18px;
+    }
+    .questionContainer p.question i {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:340px) {
+    footer .copyRight {
+        width: 100%;
+        order: 4;
+        font-size: 16px;
+    }
+    .bookShelf .container .controls i {
+        font-size: 18px;
+        padding: 6px 5px;
+        border-width: 3px;
+    }
+    .logo a {
+        line-height: 35px;
+        font-size: 25px;
+    }
+    .navIcons img {
+        width: 38px;
+        height: 37px;
+    }
+    nav .navIcons .Menu i {
+        font-size: 17px;
+        width: 30px;
+    }
+    nav .navIcons .Menu {
+        height: 35px;
+        width: 35px
+    }
+    section.aboutSlider .container p {
+        font-size: 16px;
+        width: 89%;
+        text-align: center;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+    .logo a {
+        margin-top: 10px;
+    }
+}
+
+@media(min-width:360px) and (max-width:460px) {
+    section.recentlyStories .container .controls {
+        padding: 0px 15px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 23px;
+        padding: 5px;
+        width: 38px;
+        display: inline-block;
+        border-width: 3.5px;
+    }
+}
+
+@media(max-width:360px) {
+    section.recentlyStories .container .controls {
+        padding: 0px 6px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 23px;
+        padding: 5px;
+        width: 35px;
+        display: inline-block;
+        border-width: 3.5px;
+    }
+}
+
+@media (max-width:370px) {
+    section.aboutSlider .container p {
+        font-size: 17px;
+        width: 89%;
+        text-align: center;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:280px) {
+    footer h2 {
+        font-size: 15px
+    }
+    footer .contactus a,
+    footer .links .footerLinks li {
+        font-size: 14px
+    }
+    .socialLinks ul li a.icon {
+        width: 39px;
+        height: 39px
+    }
+    footer .copyRight {
+        width: 100%;
+        order: 4;
+        font-size: 14px;
+        padding-left: 0
+    }
+    section.recentlyStories .container {
+        width: 100%
+    }
+    section.recentlyStories .container .books {
+        width: 90%
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 110px
+    }
+    section.recentlyStories .container .books .book {
+        width: 75px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 60%;
+    }
+    section.whyus .container .services img {
+        width: 210px;
+        height: 180px
+    }
+    .logo a {
+        line-height: 35px;
+        font-size: 25px;
+    }
+    .navIcons img {
+        width: 38px;
+        height: 37px;
+    }
+    nav .navIcons .Menu i {
+        font-size: 17px;
+        width: 30px;
+    }
+    nav .navIcons .Menu {
+        height: 35px;
+        width: 35px
+    }
+    section.aboutSlider .container p {
+        font-size: 14px;
+        width: 89%;
+        text-align: center;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    nav .container {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px 0 0
+    }
+    nav form,
+    ul.navLinks {
+        display: flex
+    }
+    nav form {
+        width: 50%
+    }
+    .logo {
+        width: 30%;
+        padding-left: 10px
+    }
+    .logo a {
+        font-size: 35px;
+        margin-top: 18px;
+    }
+    .logo a span {
+        font-size: 31px;
+        padding-left: 5px
+    }
+    .logo a img {
+        padding: 0 7px 0 0;
+        width: 65px;
+        height: 42px;
+        line-height: 50px
+    }
+    ul.navLinks {
+        width: 100%;
+        order: 3;
+        border-top: 1px solid #707070;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center
+    }
+    ul.navLinks li {
+        padding-top: 0;
+        line-height: 60px;
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    footer .copyRight {
+        display: flex;
+    }
+    footer .copyRight2 {
+        display: none;
+    }
+    ul.navLinks li.sign {
+        display: none
+    }
+    ul.navLinks li.services {
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-top: 25px
+    }
+    ul.navLinks li a {
+        padding-left: 0;
+        justify-content: center;
+        font-size: 18px;
+        width: 100%;
+        line-height: 30px;
+        padding-bottom: 15px
+    }
+    ul.navLinks li.services i {
+        padding: 10px;
+        line-height: 25px;
+        margin-left: -45px
+    }
+    ul.navLinks li.services>a {
+        line-height: 40px;
+        padding-top: 0
+    }
+    ul.servicesBox {
+        width: 100%;
+        top: 83.5px;
+        width: 250px;
+        left: -2px
+    }
+    nav ul.navLinks ul.servicesBox li {
+        width: 100%;
+        justify-content: flex-start
+    }
+    ul.servicesBox li a {
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 10px;
+        color: #faf5f1;
+        justify-content: flex-start
+    }
+    ul.navLinks .services li:hover {
+        background: #dc864e
+    }
+    nav .navIcons {
+        width: 7%;
+        align-items: center;
+        margin: 0 10px 10px 0
+    }
+    a.userIcon,
+    nav .navIcons .Menu {
+        margin-right: 0;
+        padding: 8px 0;
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+        display: none
+    }
+    a.userIcon i {
+        font-size: 21px
+    }
+    a.userIcon {
+        display: flex
+    }
+    ul.navLinks li.services:hover .servicesBox {
+        display: flex
+    }
+    footer .contactus,
+    footer .links {
+        width: 10%
+    }
+    footer .links h3 {
+        padding-top: 60px
+    }
+    footer .links ul {
+        width: 100%
+    }
+    footer .contactus {
+        width: 18%
+    }
+    footer .socialLinks {
+        width: 70%
+    }
+    footer h2,
+    footer h3 {
+        font-size: 18px
+    }
+    footer h2 {
+        font-size: 21px
+    }
+    footer h2 {
+        padding-top: 35px
+    }
+    footer h3 {
+        font-size: 20px
+    }
+    footer .contactus a,
+    footer .links .footerLinks li a {
+        width: 100%
+    }
+    footer .contactus a,
+    footer .links .footerLinks li {
+        font-size: 17px
+    }
+    .socialLinks ul {
+        width: 50%
+    }
+    .socialLinks ul li a.icon {
+        font-size: 18px
+    }
+    footer .copyRight {
+        width: 100%;
+        font-size: 18px;
+    }
+    .Sign .submit label {
+        width: 26%;
+        margin: 0;
+        margin-top: 2%;
+        cursor: pointer;
+        padding-left: 0;
+        font-size: 17px
+    }
+    .Sign .container {
+        width: 90%;
+        margin: auto auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 10%
+    }
+    .signIn,
+    .signUp {
+        width: 70%
+    }
+    .Sign .signLinks a,
+    .Sign .signLinks li {
+        font-size: 18
+    }
+    .Sign form {
+        width: 86%
+    }
+    .Sign .submit {
+        margin-top: 3%
+    }
+    .Sign .submit label {
+        width: 50%;
+        font-size: 17px
+    }
+    .Sign .submit a {
+        width: 50%;
+        text-align: right;
+        padding-right: 10px
+    }
+    .bookShelf .container {
+        width: 90%;
+        padding: 30px 5px;
+    }
+    .bookShelf .container .books {
+        justify-content: space-evenly
+    }
+    .bookShelf .container .books .book {
+        display: flex;
+    }
+    .bookShelf .container .books .book .image {
+        height: 260px
+    }
+    .bookShelf .container h2 {
+        background: repeating-linear-gradient( 45deg, #FAF5F1 50px, #DC864E);
+        box-shadow: .5px 1px 9px .5px #dc864e;
+        font-size: 30px
+    }
+    .bookShelf .container .btn {
+        margin: 10px 0px;
+        box-shadow: .5px .5px 9px .5px #dc864e;
+    }
+    .bookShelf .container .books .book {
+        display: flex;
+        width: 190px
+    }
+    .bookShelf .container .books .book .image .overflow a {
+        width: 45px;
+        height: 45px;
+        font-size: 36px
+    }
+    .bookShelf .container .controls {
+        display: none;
+    }
+    .bookShelf .container .books .book h3 {
+        font-size: 25px;
+        padding-bottom: 5px
+    }
+    .bookShelf .container .books .book ul.rate li i {
+        font-size: 15px
+    }
+    section.mainSlider .container,
+    .ourServices .container {
+        width: 95%;
+        border-width: 5px;
+        ;
+    }
+    section.mainSlider .container h1,
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 30px;
+    }
+    section.ourServices .container h2 {
+        width: 100%;
+    }
+    section.ourServices .container h3 {
+        font-size: 25px;
+        text-align: left;
+        padding-left: 65px;
+    }
+    section.mainSlider .container p,
+    section.ourServices .container p {
+        font-size: 17px;
+        width: 75%;
+        line-height: 37px;
+    }
+    section.mainSlider .container p {
+        width: 90%;
+        font-size: 20px
+    }
+    section.ourServices .container p {
+        font-size: 17px;
+    }
+    section.mainSlider .container .btns {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly
+    }
+    section.mainSlider .container .btns a,
+    section.ourServices .container a {
+        font-size: 24px;
+        width: 45%;
+        border-radius: 4px;
+        margin-bottom: 20px
+    }
+    .ourServices .container>div {
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        ;
+    }
+    .ourServices .container>div:last-of-type {
+        margin-bottom: 20px;
+        ;
+    }
+    .ourServices .container>div .images {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-width: 5px;
+    }
+    .ourServices .container .translation .images {
+        order: 2;
+    }
+    .ourServices .container>div .caption {
+        width: 60%;
+        padding: 10px 3px;
+    }
+    .ourServices .container>div .caption p {
+        font-size: 20px;
+    }
+    section.ourServices .container a {
+        width: 78%;
+        display: inline-block;
+        padding: 10px;
+        font-size: 17px;
+        margin: 10px auto;
+    }
+    section.recentlyStories .container {
+        width: 95%;
+        border-width: 5px;
+    }
+    section.recentlyStories .container h2 {
+        width: 90%;
+        font-size: 30px;
+        border-radius: 4px;
+    }
+    section.recentlyStories .container .controls {
+        padding: 0px 10px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 23px;
+    }
+    section.recentlyStories .container .books {
+        position: relative;
+        width: 85%;
+        z-index: 222;
+        justify-content: space-evenly;
+        margin: auto
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 230px
+    }
+    section.recentlyStories .container .books .book h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    section.recentlyStories .container .books .book .rate {
+        font-size: 15px
+    }
+    section.recentlyStories .container .books .book .image .overflow a {
+        width: 45px;
+        height: 45px;
+        font-size: 30px;
+    }
+    section.recentlyStories .container .books .book {
+        width: 180px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 60%;
+    }
+    .questionsSection .container {
+        width: 90%;
+    }
+    .questionsSection .container h2 {
+        font-size: 30px;
+    }
+    .questionContainer {
+        width: 100%;
+    }
+    .questionContainer p.Answer {
+        line-height: 38px;
+        font-size: 18px;
+    }
+    .questionContainer p.question {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+    .questionContainer p.question i {
+        font-size: 23px;
+    }
+    .translationSec .container {
+        width: 95%;
+        border-width: 7px;
+    }
+    .translationSec .container h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .translationSec .container h1:after {
+        width: 270px;
+    }
+    .translationSec .container form {
+        width: 90%;
+        justify-content: space-between;
+        margin: 20px auto 0px;
+    }
+    .translationSec .container form>div {
+        width: 45%;
+    }
+    .translationSec .container form>div .upload p i {
+        font-size: 19px;
+    }
+    .translationSec .container form input[type="submit"] {
+        width: 60%;
+        font-size: 19px;
+    }
+    .storyDetail .container {
+        display: flex;
+        width: 90%;
+        padding: 20px 0px;
+        border: 10px double #dc864e;
+        margin: auto;
+        border-width: 0px 10px;
+        flex-direction: column;
+    }
+    .storyDetail .container h1 {
+        background: repeating-linear-gradient(-45deg, #dc864e, #faf5f1 90%);
+        width: 95%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .storyDetail .container .detail {
+        display: flex;
+        justify-content: center;
+    }
+    .storyDetail .container .detail .story {
+        width: 35%;
+    }
+    .storyDetail .container .detail .story .book {
+        height: 90%;
+    }
+    .storyDetail .container .detail .story .book .image {
+        height: 300px;
+    }
+    .storyDetail .container .detail .bookdetails {
+        width: 55%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 10%;
+        border: none;
+    }
+    .storyDetail .container .detail .bookdetails li {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .storyDetail .container .detail .bookdetails li span {
+        font-size: 22px;
+    }
+    .storyDetail .container .detail .bookdetails li:first-of-type {
+        margin-top: 0px;
+    }
+    .storyDetail .container .detail .description a:first-of-type {
+        margin-left: 0px
+    }
+    .storyDetail .container .detail .description {
+        width: 85%;
+        padding-left: 0%;
+        margin-left: 0%;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-top: 10px double #dc864e;
+        padding-top: 10%;
+    }
+    .storyDetail .container .detail .description h3 {
+        margin-bottom: 20px;
+        color: #592a20;
+        width: 100%;
+    }
+    .storyDetail .container .detail .description p {
+        width: 100%;
+        line-height: 36px;
+    }
+    .storyDetail .container .detail .description a {
+        width: 46%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .storyDetail .container .anotherStories {
+        width: 100%;
+    }
+    .storyDetail .container .anotherStories .story {
+        width: 95%;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+    }
+    .storyDetail .container .anotherStories .story .image {
+        height: 250px;
+    }
+    .storyDetail .container .anotherStories h2 {
+        margin: 20px;
+    }
+    .storyDetail .container .anotherStories .story .book {
+        width: 200px;
+        margin: 10px;
+    }
+    section.aboutSlider {
+        background: url(../images/about1000.jpg)no-repeat 0% 0%;
+        height: 442px;
+        background-size: cover;
+    }
+    section.aboutSlider h1 {
+        padding-top: 15px;
+        padding-bottom: 2px;
+        line-height: 32px;
+        font-size: 40px;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    section.aboutSlider .container {
+        width: 100%;
+        height: 60%;
+        margin: 0px;
+        border: none;
+        top: 40%;
+    }
+    section.aboutSlider .container a i {
+        top: 50%;
+        left: 26%;
+    }
+    section.aboutSlider .container i {
+        font-size: 23px;
+        border: 1px solid;
+    }
+    section.aboutSlider .container a {
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 7%;
+        width: 30px;
+        height: 30px;
+        margin-top: 1%;
+    }
+    section.aboutSlider .container p {
+        font-size: 18px;
+        width: 95%;
+        text-align: center;
+        margin-bottom: 3px
+    }
+    section.whyus .container {
+        width: 80%;
+        margin: 0px auto;
+        padding: 50px 10px;
+    }
+    section.whyus .container h2 {
+        font-size: 35px;
+        padding: 30px;
+    }
+    section.whyus .container h2::after,
+    section.sendFeedback .container h3::after,
+    section.feedback .container h2::after {
+        margin: 30px auto;
+        width: 80px;
+        height: 5px;
+    }
+    section.sendFeedback .container h3::after {
+        width: 170px;
+        margin: 30px auto 10px;
+    }
+    section.feedback .container h2::after {
+        width: 160px;
+    }
+    section.whyus .container p {
+        width: 650px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    section.whyus .container .services {
+        margin-top: 40px;
+    }
+    section.whyus .container .services img {
+        width: 270px;
+        height: 200px;
+        padding: 5px;
+        border-radius: 4px;
+        border-width: 5px;
+        margin: 10px auto
+    }
+    section.whyus .container .services>div {
+        width: 50%;
+    }
+    section.whyus .container .services a {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    section.sendFeedback .container {
+        width: 80%;
+        padding: 50px 10px;
+        border-width: 5px;
+    }
+    section.sendFeedback .container h3 {
+        font-size: 30px;
+        padding: 50px 10px 0px;
+        ;
+    }
+    section.sendFeedback .container p {
+        font-size: 17px;
+        padding: 20px 10px 40px;
+    }
+    section.sendFeedback .container form {
+        width: 90%;
+    }
+    section.sendFeedback .container form textarea {
+        width: 90%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.sendFeedback .container form input {
+        width: 90%;
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.feedback .container {
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+    }
+    section.feedback .container>div {
+        width: 30%;
+        margin-bottom: 70px;
+    }
+    section.feedback .container h2 {
+        font-size: 35px;
+        margin: 50px
+    }
+    section.feedback .container img {
+        width: 80px;
+        height: 80px;
+        border-width: 4px;
+    }
+    section.feedback .container h4 {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+    section.feedback .container p {
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .profile form .userImages {
+        width: 100%;
+        background: url(../images/black-1072366_1920.jpg)no-repeat 0% 0%;
+        background-size: cover;
+        height: 230px;
+    }
+    .profile form .userImages .image {
+        margin: 100px auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-width: 5px;
+    }
+    .profile form .userImages .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .profile form .userImages .overflow {
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        opacity: 0;
+    }
+    .profile form .userImages .overflow p {
+        padding: 10px;
+        width: 100%;
+        padding-top: 25px;
+        font-size: 18px;
+        top: 0;
+        left: 0;
+    }
+    .profile form .container {
+        width: 90%;
+        height: 100%;
+        padding: 100px 20px 50px;
+        border-width: 5px
+    }
+    .profile form .container>div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .profile form .container>div:last-of-type {
+        margin: 0px;
+    }
+    .profile form .container label {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .profile form .container input {
+        font-size: 15px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .profile form .container input::placeholder {
+        font-size: 15px;
+    }
+    .profile form .container .submit input {
+        background: repeating-linear-gradient(45deg, #dc864e, #faf5f1 94%);
+        font-size: 20px;
+    }
+    .rightProfileBox {
+        top: 93.8px;
+    }
+    .rightProfileBox ul {
+        padding: 35px 10px;
+    }
+    .rightProfileBox ul li.image {
+        width: 80%;
+    }
+    .rightProfileBox ul li.image img {
+        width: 70px;
+        height: 70px;
+    }
+    .rightProfileBox ul li a {
+        font-size: 20px;
+    }
+    .rightProfileBox ul li {
+        margin-bottom: 4px;
+        padding: 0px 10px;
+    }
+    .rightProfileBox ul li.image p {
+        font-size: 22px;
+        margin: 15px;
+    }
+    .rightProfileBox ul li p {
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .rightProfileBox ul li.image p.adding {
+        font-size: 30px;
+    }
+    .navIcons img {
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+        background: transparent;
+    }
+    .navIcons a.userIcon {
+        background-color: transparent;
+        padding: 2.5px;
+        width: 60px;
+        height: 45px;
+        border: none;
+        display: flex;
+    }
+    ul.servicesBox {
+        top: 82.9px;
+    }
+    ul.navLinks>li.active a {
+        color: #592a20;
+    }
+    ul.navLinks>li.active a {
+        color: #592a20;
+    }
+    ul.navLinks>li.active .servicesBox a {
+        color: #faf5f1;
+    }
+    ul.navLinks>li.active .servicesBox li.active {
+        color: #592a20;
+        background: #faf5f1;
+    }
+    ul.navLinks>li.active .servicesBox li.active a {
+        color: #592a20;
+    }
+    ul.navLinks li.services.active ul.servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+        color: #707070
+    }
+    ul.navLinks li.services ul.servicesBox li:hover a {
+        color: #707070
+    }
+    ul.navLinks .servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+    }
+    footer .links,
+    footer .contactus {
+        margin-top: -100px;
+    }
+    footer .links {
+        margin-top: -124px;
+    }
+    footer .socialLinks {
+        margin-top: 35px
+    }
+}
+
+@media (min-width:992px) and (max-width:1999px) {
+    nav .container {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px 0 0
+    }
+    nav form {
+        width: 28%;
+        display: flex;
+        padding: 15px 10px;
+        margin-left: 13%
+    }
+    .logo {
+        width: 10%;
+        padding-left: 10px
+    }
+    .logo a {
+        font-size: 39px
+    }
+    .logo a span {
+        font-size: 36px
+    }
+    .logo a img {
+        padding: 0 7px 0 0;
+        width: 65px;
+        height: 45px;
+        line-height: 40px
+    }
+    ul.navLinks {
+        width: 42%
+    }
+    ul.navLinks li a {
+        font-size: 21px
+    }
+    ul.navLinks li.services:hover .servicesBox {
+        display: flex
+    }
+    ul.navLinks .servicesBox li:hover {
+        background: #dc864e
+    }
+    nav .navIcons {
+        width: 5%;
+        margin: 16px 10px 0
+    }
+    nav .navIcons .userIcon {
+        margin-right: 0;
+        padding: 8px 0;
+        display: inline-block;
+        width: 40px;
+        height: 40px
+    }
+    nav .navIcons .userIcon i {
+        font-size: 19px
+    }
+    a.Menu {
+        display: none
+    }
+    li.sign {
+        display: none
+    }
+    footer .contactus,
+    footer .links {
+        width: 10%
+    }
+    footer .links ul {
+        width: 100%
+    }
+    footer .contactus {
+        width: 18%
+    }
+    footer .socialLinks {
+        width: 65%
+    }
+    footer h2,
+    footer h3 {
+        font-size: 25px
+    }
+    footer h3 {
+        font-size: 20px
+    }
+    footer .contactus a,
+    footer .links .footerLinks li a {
+        width: 100%
+    }
+    footer .contactus a,
+    footer .links .footerLinks li {
+        font-size: 20px
+    }
+    .socialLinks ul {
+        width: 40%
+    }
+    .socialLinks ul li a.icon {
+        font-size: 18px
+    }
+    footer .copyRight {
+        width: 100%;
+        font-size: 21px;
+        justify-content: center;
+    }
+    .Sign .submit label {
+        width: 26%;
+        margin: 0;
+        margin-top: 2%;
+        cursor: pointer;
+        padding-left: 0;
+        font-size: 17px
+    }
+    .Sign .container {
+        width: 85%;
+        margin: auto auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 10%
+    }
+    .Sign h2 {
+        padding: 0;
+        padding-bottom: 3%;
+        width: 84%
+    }
+    .signIn,
+    .signUp {
+        width: 60%
+    }
+    .Sign form {
+        margin-left: 7%;
+        width: 86%
+    }
+    .Sign .submit label {
+        width: 50%;
+        font-size: 17px
+    }
+    .Sign .submit a {
+        width: 50%;
+        text-align: right;
+        padding-right: 10px
+    }
+    .bookShelf .container {
+        width: 90%;
+        padding: 30px 5px;
+        padding: 30px
+    }
+    .bookShelf .container .books {
+        justify-content: space-evenly;
+    }
+    .bookShelf .container .books .book .image {
+        height: 300px
+    }
+    .bookShelf .container h2 {
+        background: repeating-linear-gradient( 45deg, #FAF5F1 50px, #DC864E);
+        box-shadow: .5px 1px 9px .5px #dc864e;
+        font-size: 30px
+    }
+    .bookShelf .container .books .book {
+        display: flex;
+        width: 225px
+    }
+    .bookShelf .container .books .book h3 {
+        font-size: 28px;
+        padding-bottom: 10px
+    }
+    .bookShelf .container .books .book ul.rate li i {
+        font-size: 18px
+    }
+    .bookShelf .container .books .book ul.rate {
+        padding-bottom: 10px
+    }
+    section.mainSlider .container,
+    .ourServices .container {
+        width: 90%;
+        border-width: 10px;
+        ;
+    }
+    section.mainSlider .container h1,
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 50px;
+        text-align: center;
+    }
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 40px;
+    }
+    section.ourServices .container h2 {
+        width: 100%;
+    }
+    section.ourServices .container h3 {
+        font-size: 30px;
+        text-align: left;
+        width: 85%
+    }
+    section.mainSlider .container p,
+    section.ourServices .container p {
+        font-size: 25px;
+        width: 77%;
+        line-height: 45px;
+    }
+    section.mainSlider .container .btns {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: center
+    }
+    section.mainSlider .container .btns a,
+    section.ourServices .container a {
+        font-size: 27px;
+        width: 30%;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        margin-right: 25px
+    }
+    .ourServices .container>div {
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        ;
+    }
+    .ourServices .container>div:last-of-type {
+        margin-bottom: 20px;
+        ;
+    }
+    .ourServices .container>div .images {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-width: 5px;
+    }
+    .ourServices .container .translation .images {
+        order: 2;
+    }
+    .ourServices .container>div .caption {
+        width: 70%;
+        padding: 10px 3px;
+    }
+    .ourServices .container>div .caption p {
+        font-size: 24px;
+        width: 85%
+    }
+    section.ourServices .container a {
+        width: 85%;
+        display: inline-block;
+        padding: 10px;
+        font-size: 17px;
+        margin: 10px auto;
+    }
+    section.recentlyStories .container {
+        width: 90%;
+        border-width: 5px;
+    }
+    section.recentlyStories .container h2 {
+        width: 90%;
+        font-size: 40px;
+        border-radius: 4px;
+    }
+    section.recentlyStories .container .controls {
+        padding: 0px 15px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 25px;
+    }
+    section.recentlyStories .container .books {
+        position: relative;
+        width: 85%;
+        z-index: 222;
+        justify-content: space-evenly;
+        margin: auto
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 320px
+    }
+    section.recentlyStories .container .books .book h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    section.recentlyStories .container .books .book .rate {
+        font-size: 18px
+    }
+    section.recentlyStories .container .books .book .image .overflow a {
+        width: 46px;
+        height: 46px;
+        font-size: 33px;
+    }
+    section.recentlyStories .container .books .book {
+        width: 230px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 60%;
+    }
+    .questionsSection .container {
+        width: 90%;
+    }
+    .questionsSection .container h2 {
+        font-size: 40px;
+    }
+    .questionContainer {
+        width: 95%;
+    }
+    .questionContainer p.Answer {
+        line-height: 35px;
+        font-size: 23px;
+    }
+    .questionContainer p.question {
+        font-size: 23px;
+        padding: 15px 10px;
+    }
+    .questionContainer p.question i {
+        font-size: 26px;
+    }
+    .translationSec .container {
+        width: 86%;
+        border-width: 10px;
+    }
+    .translationSec .container h1 {
+        font-size: 33px;
+    }
+    .translationSec .container h1:after {
+        width: 320px;
+    }
+    .translationSec .container form {
+        width: 90%;
+        justify-content: space-between;
+        margin: 20px auto 0px;
+    }
+    .translationSec .container form>div {
+        width: 45%;
+    }
+    .translationSec .container form>div .upload p i {
+        font-size: 21px;
+    }
+    .translationSec .container form input[type="submit"] {
+        width: 60%;
+        font-size: 19px;
+    }
+    .storyDetail .container {
+        display: flex;
+        width: 96%;
+        padding: 20px 0px;
+        border: 10px double #dc864e;
+        margin: auto;
+        border-width: 0px 10px;
+        flex-direction: column;
+    }
+    .storyDetail .container h1 {
+        background: repeating-linear-gradient(-45deg, #dc864e, #faf5f1 90%);
+        width: 95%;
+        margin-bottom: 20px;
+        font-size: 50px;
+        border-radius: 5px;
+    }
+    .storyDetail .container .detail .story {
+        width: 25%;
+    }
+    .storyDetail .container .detail .story .book {
+        height: 84%;
+    }
+    .storyDetail .container .detail .story .book .image {
+        height: 300px;
+    }
+    .storyDetail .container .detail .bookdetails {
+        width: 35%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 10%;
+    }
+    .storyDetail .container .detail .bookdetails li {
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    .storyDetail .container .detail .bookdetails li span {
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 11px 0px
+    }
+    .storyDetail .container .detail .bookdetails li:first-of-type {
+        margin-top: 0px;
+    }
+    .storyDetail .container .detail .description a:first-of-type {
+        margin-left: 0px
+    }
+    .storyDetail .container .detail .description {
+        width: 35%;
+        padding-left: 7%;
+        margin-left: 0%;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .storyDetail .container .detail .description h3 {
+        margin-bottom: 20px;
+        color: #592a20;
+        width: 100%;
+    }
+    .storyDetail .container .detail .description p {
+        width: 100%;
+        line-height: 36px;
+    }
+    .storyDetail .container .detail .description a {
+        width: 46%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .storyDetail .container .anotherStories {
+        width: 100%;
+    }
+    .storyDetail .container .anotherStories .story {
+        width: 95%;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+    }
+    .storyDetail .container .anotherStories .story .image {
+        height: 250px;
+    }
+    .storyDetail .container .anotherStories h2 {
+        margin: 20px;
+    }
+    .storyDetail .container .anotherStories .story .book {
+        width: 200px;
+        margin: 10px;
+    }
+    section.aboutSlider {
+        background: url(../images/about.png)no-repeat 0% 0%;
+        background-size: cover;
+        height: 700px;
+    }
+    section.aboutSlider h1 {
+        padding-top: 50px;
+        padding-bottom: 2px;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    section.aboutSlider .container {
+        width: 100%;
+        height: 46%;
+        margin: 0px;
+        top: 54%;
+    }
+    section.aboutSlider .container a i {
+        top: 50%;
+        left: 30%;
+    }
+    section.aboutSlider .container i {
+        font-size: 23px;
+        border: 1px solid;
+    }
+    section.aboutSlider .container a {
+        border-radius: 10px;
+        padding: 18px;
+        margin-bottom: 7.5%;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px
+    }
+    section.aboutSlider .container p {
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    section.whyus .container {
+        width: 80%;
+        margin: 0px auto;
+        padding: 50px 10px;
+    }
+    section.whyus .container h2 {
+        font-size: 45px;
+        padding: 30px;
+    }
+    section.whyus .container h2::after,
+    section.sendFeedback .container h3::after,
+    section.feedback .container h2::after {
+        margin: 30px auto;
+        width: 80px;
+        height: 5px;
+    }
+    section.sendFeedback .container h3::after {
+        width: 170px;
+        margin: 30px auto 10px;
+    }
+    section.feedback .container h2::after {
+        width: 160px;
+    }
+    section.whyus .container p {
+        width: 700px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    section.whyus .container .services {
+        margin-top: 40px;
+    }
+    section.whyus .container .services img {
+        width: 350px;
+        height: 250px;
+        padding: 5px;
+        border-radius: 4px;
+        border-width: 5px;
+        margin: 10px auto
+    }
+    section.whyus .container .services>div {
+        width: 50%;
+    }
+    section.whyus .container .services a {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    section.sendFeedback .container {
+        width: 80%;
+        padding: 50px 10px;
+        border-width: 5px;
+    }
+    section.sendFeedback .container h3 {
+        font-size: 40px;
+        padding: 50px 10px 0px;
+        ;
+    }
+    section.sendFeedback .container p {
+        font-size: 19px;
+        padding: 20px 10px 40px;
+    }
+    section.sendFeedback .container form {
+        width: 90%;
+    }
+    section.sendFeedback .container form textarea {
+        width: 80%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.sendFeedback .container form input {
+        width: 80%;
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.feedback .container {
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+    }
+    section.feedback .container>div {
+        width: 30%;
+        margin-bottom: 70px;
+    }
+    section.feedback .container h2 {
+        font-size: 45px;
+        margin: 50px
+    }
+    section.feedback .container img {
+        width: 100px;
+        height: 100px;
+        border-width: 4px;
+    }
+    section.feedback .container h4 {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 18px;
+    }
+    section.feedback .container p {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .profile form .userImages {
+        width: 100%;
+        background: url(../images/black-1072366_1920.jpg)no-repeat 0% 0%;
+        background-size: cover;
+        height: 300px;
+    }
+    .profile form .userImages .image {
+        margin: 120px auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-width: 5px;
+    }
+    .profile form .userImages .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .profile form .userImages .overflow {
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        opacity: 0;
+    }
+    .profile form .userImages .overflow p {
+        padding: 10px;
+        width: 100%;
+        padding-top: 40px;
+        font-size: 18px;
+        top: 0;
+        left: 0;
+    }
+    .profile form .container {
+        width: 80%;
+        height: 100%;
+        padding: 100px 20px 50px;
+        border-width: 10px
+    }
+    .profile form .container>div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .profile form .container>div:last-of-type {
+        margin: 0px;
+    }
+    .profile form .container label {
+        font-size: 17px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .profile form .container input {
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .profile form .container input::placeholder {
+        font-size: 15px;
+    }
+    .profile form .container .submit input {
+        background: repeating-linear-gradient(45deg, #dc864e, #faf5f1 94%);
+        font-size: 20px;
+    }
+    .rightProfileBox {
+        top: 86px;
+    }
+    .rightProfileBox ul {
+        padding: 35px 10px;
+    }
+    .rightProfileBox ul li.image {
+        width: 100%;
+    }
+    .rightProfileBox ul li.image img {
+        width: 70px;
+        height: 70px;
+    }
+    .rightProfileBox ul li a {
+        font-size: 20px;
+    }
+    .rightProfileBox ul li {
+        margin-bottom: 4px;
+        padding: 0px 10px;
+    }
+    .rightProfileBox ul li.image p {
+        font-size: 22px;
+        margin: 15px;
+    }
+    .rightProfileBox ul li p {
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .rightProfileBox ul li.image p.adding {
+        font-size: 30px;
+    }
+    .navIcons img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+        background: transparent;
+    }
+    .navIcons a.userIcon {
+        background-color: transparent;
+        padding: 2.5px;
+        width: 60px;
+        height: 45px;
+        border: none;
+    }
+    ul.navLinks {
+        width: 35%
+    }
+    ul.servicesBox {
+        top: 77.1px;
+    }
+    ul.navLinks>li.active a {
+        color: #592a20;
+    }
+    ul.navLinks>li.active a {
+        color: #592a20;
+    }
+    ul.navLinks>li.active .servicesBox a {
+        color: #faf5f1;
+    }
+    ul.navLinks>li.active .servicesBox li.active {
+        color: #592a20;
+        background: #faf5f1;
+    }
+    ul.navLinks>li.active .servicesBox li.active a {
+        color: #592a20;
+    }
+    ul.navLinks li.services.active ul.servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+        color: #707070
+    }
+    ul.navLinks li.services ul.servicesBox li:hover a {
+        color: #707070
+    }
+    ul.navLinks .servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+    }
+    footer .links,
+    footer .contactus {
+        margin-top: -100px;
+    }
+    footer .links {
+        margin-top: -120px;
+    }
+    footer .socialLinks {
+        margin-top: 35px
+    }
+}
+
+@media(min-width:1200px) {
+    nav form {
+        width: 30%;
+        display: flex;
+        padding: 15px 10px 15px 0;
+        margin-left: 5%
+    }
+    ul.navLinks .servicesBox {
+        top: 79.1888845px;
+    }
+    ul.navLinks li.services:hover .servicesBox {
+        display: flex
+    }
+    ul.navLinks {
+        width: 35%
+    }
+    ul.navLinks li a {
+        text-align: center
+    }
+    nav form {
+        margin-left: 10%
+    }
+    nav .navIcons {
+        width: 8%;
+        margin: 16px 10px 0
+    }
+    .logo {
+        width: 13%
+    }
+    ul.navLinks .servicesBox li:hover {
+        background: #dc864e
+    }
+    footer .copyRight {
+        width: 100%;
+        font-size: 23px;
+    }
+    .Sign .submit label {
+        width: 26%;
+        margin: 0;
+        margin-top: 2%;
+        cursor: pointer;
+        padding-left: 0;
+        font-size: 17px
+    }
+    .Sign .container {
+        width: 85%;
+        margin: auto auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 10%
+    }
+    .Sign h2 {
+        padding: 0;
+        padding-bottom: 3%;
+        width: 84%;
+        margin-left: 7%
+    }
+    .signIn,
+    .signUp {
+        width: 50%
+    }
+    .Sign .signLinks a,
+    .Sign .signLinks li {
+        font-size: 22px
+    }
+    .Sign form {
+        width: 86%
+    }
+    .Sign .submit label {
+        width: 50%;
+        font-size: 17px
+    }
+    .Sign .submit a {
+        width: 50%;
+        text-align: right;
+        padding-right: 10px
+    }
+    .bookShelf .container {
+        width: 75%;
+        padding: 30px 5px;
+        padding: 30px
+    }
+    .bookShelf .container .books {
+        justify-content: space-evenly;
+    }
+    .bookShelf .container .books .book .image {
+        height: 345px;
+    }
+    .bookShelf .container h2 {
+        background: repeating-linear-gradient( 45deg, #FAF5F1 50px, #DC864E);
+        box-shadow: .5px 1px 9px .5px #dc864e;
+        font-size: 40px;
+        ;
+    }
+    .bookShelf .container .books .book {
+        display: flex;
+        width: 245px
+    }
+    section.mainSlider .container,
+    .ourServices .container {
+        width: 85%;
+        border-width: 10px;
+        ;
+    }
+    section.mainSlider .container h1,
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 50px;
+        text-align: center;
+    }
+    section.ourServices .container h2,
+    section.ourServices .container h3 {
+        font-size: 40px;
+    }
+    section.ourServices .container h2 {
+        width: 100%;
+    }
+    section.ourServices .container h3 {
+        font-size: 35px;
+        text-align: left;
+        width: 85%
+    }
+    section.mainSlider .container p,
+    section.ourServices .container p {
+        font-size: 25px;
+        width: 65%;
+        line-height: 45px;
+    }
+    section.mainSlider .container .btns {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: center
+    }
+    section.mainSlider .container .btns a,
+    section.ourServices .container a {
+        font-size: 27px;
+        width: 25%;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        margin-right: 25px
+    }
+    .ourServices .container>div {
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        ;
+    }
+    .ourServices .container>div:last-of-type {
+        margin-bottom: 20px;
+        ;
+    }
+    .ourServices .container>div .images {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border-width: 10px;
+    }
+    .ourServices .container .translation .images {
+        order: 2;
+    }
+    .ourServices .container>div .caption {
+        width: 60%;
+        padding: 10px 3px;
+    }
+    .ourServices .container>div .caption p {
+        font-size: 25px;
+        width: 85%
+    }
+    section.ourServices .container a {
+        width: 50%;
+        display: inline-block;
+        padding: 10px;
+        font-size: 25px;
+        margin: 10px auto;
+    }
+    section.recentlyStories .container {
+        width: 85%;
+        border-width: 10px;
+    }
+    section.recentlyStories .container h2 {
+        width: 90%;
+        font-size: 40px;
+        border-radius: 4px;
+    }
+    section.recentlyStories .container .controls {
+        padding: 0px 10px;
+    }
+    section.recentlyStories .container .controls i {
+        font-size: 25px;
+        font-weight: bold;
+        border-width: 6px;
+        border-radius: 10px;
+    }
+    section.recentlyStories .container .books {
+        position: relative;
+        width: 85%;
+        z-index: 222;
+        justify-content: space-evenly;
+        margin: auto
+    }
+    section.recentlyStories .container .books .book .image {
+        height: 430px
+    }
+    section.recentlyStories .container .books .book h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    section.recentlyStories .container .books .book .rate {
+        font-size: 18px
+    }
+    section.recentlyStories .container .books .book .image .overflow a {
+        width: 55px;
+        height: 55px;
+        font-size: 32px;
+    }
+    section.recentlyStories .container .books .book {
+        width: 270px;
+    }
+    section.recentlyStories .container .row {
+        width: 100%;
+    }
+    .recentlyStories .indicators {
+        width: 50%;
+    }
+    .questionsSection .container {
+        width: 85%;
+    }
+    .questionsSection .container h2 {
+        font-size: 45px;
+    }
+    .questionContainer {
+        width: 75%;
+    }
+    .questionContainer p.Answer {
+        line-height: 40px;
+        font-size: 24px;
+    }
+    .questionContainer p.question {
+        font-size: 24px;
+        padding: 15px 10px;
+    }
+    .questionContainer p.question i {
+        font-size: 34px;
+    }
+    .translationSec .container {
+        width: 75%;
+        border-width: 10px;
+    }
+    .translationSec .container h1 {
+        font-size: 35px;
+    }
+    .translationSec .container h1:after {
+        width: 340px;
+    }
+    .translationSec .container form {
+        width: 90%;
+        justify-content: space-between;
+        margin: 20px auto 0px;
+    }
+    .translationSec .container form>div {
+        width: 45%;
+    }
+    .translationSec .container form>div .upload p i {
+        font-size: 23px;
+    }
+    .translationSec .container form input[type="submit"] {
+        width: 50%;
+        font-size: 23px;
+    }
+    .storyDetail {
+        background: url(../images/slider.png)no-repeat fixed 0% 0%;
+    }
+    .storyDetail .container {
+        display: flex;
+        width: 80%;
+        padding: 20px 0px;
+        border: 10px double #dc864e;
+        margin: auto;
+        border-width: 0px 10px;
+        flex-direction: column;
+    }
+    .storyDetail .container h1 {
+        background: repeating-linear-gradient(-45deg, #dc864e, #faf5f1 90%);
+        width: 95%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .storyDetail .container .detail {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 30px auto;
+        padding: 20px 30px
+    }
+    .storyDetail .container .detail .story {
+        width: 20%;
+    }
+    .storyDetail .container .detail .story .book {
+        height: 92%;
+    }
+    .storyDetail .container .detail .story .book .image {
+        height: 300px;
+    }
+    .storyDetail .container .detail .bookdetails {
+        width: 33%;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 3%;
+    }
+    .storyDetail .container .detail .bookdetails li {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .storyDetail .container .detail .bookdetails li span {
+        font-size: 22px;
+    }
+    .storyDetail .container .detail .bookdetails li:first-of-type {
+        margin-top: 0px;
+    }
+    .storyDetail .container .detail .description a:first-of-type {
+        margin-left: 0px
+    }
+    .storyDetail .container .detail .description {
+        width: 46%;
+        margin-left: 0%;
+        padding-left: 10%;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .storyDetail .container .detail .description h3 {
+        margin-bottom: 20px;
+        color: #592a20;
+        width: 100%;
+    }
+    .storyDetail .container .detail .description p {
+        width: 100%;
+        line-height: 36px;
+    }
+    .storyDetail .container .detail .description a {
+        width: 46%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .storyDetail .container .anotherStories {
+        width: 100%;
+    }
+    .storyDetail .container .anotherStories .story {
+        width: 95%;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+    }
+    .storyDetail .container .anotherStories .story .image {
+        height: 250px;
+    }
+    .storyDetail .container .anotherStories h2 {
+        margin: 20px;
+    }
+    .storyDetail .container .anotherStories .story .book {
+        width: 200px;
+        margin: 10px;
+    }
+    section.aboutSlider {
+        background: url(../images/about.png)no-repeat 0% 0%;
+        background-size: cover;
+        height: 700px;
+    }
+    section.aboutSlider h1 {
+        padding-top: 50px;
+        padding-bottom: 2px;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    section.aboutSlider .container {
+        width: 100%;
+        height: 46%;
+        margin: 0px;
+        top: 54%;
+    }
+    section.aboutSlider .container a i {
+        top: 50%;
+        left: 30%;
+    }
+    section.aboutSlider .container i {
+        font-size: 23px;
+        border: 1px solid;
+    }
+    section.aboutSlider .container a {
+        border-radius: 10px;
+        padding: 18px;
+        margin-bottom: 6%;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px
+    }
+    section.aboutSlider .container p {
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    section.whyus .container {
+        width: 80%;
+        margin: 0px auto;
+        padding: 50px 10px;
+    }
+    section.whyus .container h2 {
+        font-size: 45px;
+        padding: 30px;
+    }
+    section.whyus .container h2::after,
+    section.sendFeedback .container h3::after,
+    section.feedback .container h2::after {
+        margin: 30px auto;
+        width: 80px;
+        height: 5px;
+    }
+    section.sendFeedback .container h3::after {
+        width: 170px;
+        margin: 30px auto 10px;
+    }
+    section.feedback .container h2::after {
+        width: 160px;
+    }
+    section.whyus .container p {
+        width: 700px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    section.whyus .container .services {
+        margin-top: 40px;
+    }
+    section.whyus .container .services img {
+        width: 350px;
+        height: 250px;
+        padding: 5px;
+        border-radius: 4px;
+        border-width: 5px;
+        margin: 10px auto
+    }
+    section.whyus .container .services>div {
+        width: 50%;
+    }
+    section.whyus .container .services a {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    section.sendFeedback .container {
+        width: 80%;
+        padding: 50px 10px;
+        border-width: 5px;
+    }
+    section.sendFeedback .container h3 {
+        font-size: 40px;
+        padding: 50px 10px 0px;
+        ;
+    }
+    section.sendFeedback .container p {
+        font-size: 19px;
+        padding: 20px 10px 40px;
+    }
+    section.sendFeedback .container form {
+        width: 90%;
+    }
+    section.sendFeedback .container form textarea {
+        width: 80%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.sendFeedback .container form input {
+        width: 80%;
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    section.feedback .container {
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+    }
+    section.feedback .container>div {
+        width: 30%;
+        margin-bottom: 70px;
+    }
+    section.feedback .container h2 {
+        font-size: 45px;
+        margin: 50px
+    }
+    section.feedback .container img {
+        width: 100px;
+        height: 100px;
+        border-width: 4px;
+    }
+    section.feedback .container h4 {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 18px;
+    }
+    section.feedback .container p {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .profile form .userImages {
+        width: 100%;
+        background: url(../images/black-1072366_1920.jpg)no-repeat 0% 0%;
+        background-size: cover;
+        height: 300px;
+    }
+    .profile form .userImages .image {
+        margin: 120px auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border-width: 5px;
+    }
+    .profile form .userImages .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .profile form .userImages .overflow {
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        opacity: 0;
+    }
+    .profile form .userImages .overflow p {
+        padding: 10px;
+        width: 100%;
+        padding-top: 35px;
+        font-size: 19px;
+        top: 0;
+        left: 0;
+    }
+    .profile form .container {
+        width: 65%;
+        height: 100%;
+        padding: 100px 20px 50px;
+        border-width: 10px
+    }
+    .profile form .container>div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .profile form .container>div:last-of-type {
+        margin: 0px;
+    }
+    .profile form .container label {
+        font-size: 19px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .profile form .container input {
+        font-size: 17px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .profile form .container input::placeholder {
+        font-size: 15px;
+    }
+    .profile form .container .submit input {
+        background: repeating-linear-gradient(45deg, #dc864e, #faf5f1 94%);
+        font-size: 25px;
+    }
+    .navIcons img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 0px;
+        background: transparent;
+    }
+    .rightProfileBox {
+        top: 88px;
+    }
+    .rightProfileBox ul {
+        padding: 35px 10px;
+    }
+    .rightProfileBox ul li.image {
+        width: 100%;
+    }
+    .rightProfileBox ul li.image img {
+        width: 70px;
+        height: 70px;
+    }
+    .rightProfileBox ul li a {
+        font-size: 20px;
+    }
+    .rightProfileBox ul li {
+        margin-bottom: 4px;
+        padding: 0px 10px;
+    }
+    .rightProfileBox ul li.image p {
+        font-size: 22px;
+        margin: 15px;
+    }
+    .rightProfileBox ul li p {
+        margin: 10px 0px;
+        font-size: 22px;
+    }
+    .rightProfileBox ul li.image p.adding {
+        font-size: 30px;
+        padding: 1px 4px;
+    }
+    .navIcons img {
+        width: 45px;
+        height: 45px;
+    }
+    .navIcons a.userIcon {
+        padding: 0px;
+        background-color: transparent;
+        width: 60px;
+        height: 60px;
+        border: none;
+    }
+    ul.navLinks>li.active a {
+        color: #592a20;
+        font-weight: bold
+    }
+    ul.navLinks>li.active .servicesBox a {
+        color: #faf5f1;
+        font-weight: bold
+    }
+    ul.navLinks>li.active .servicesBox li.active {
+        color: #592a20;
+        background: #faf5f1;
+    }
+    ul.navLinks>li.active .servicesBox li.active a {
+        color: #592a20;
+    }
+    ul.navLinks .servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+    }
+    ul.navLinks li.services.active ul.servicesBox li:hover {
+        background: rgba(133, 131, 131, .4);
+        color: #707070
+    }
+    ul.navLinks li.services ul.servicesBox li:hover a {
+        color: #707070
+    }
+    footer .links,
+    footer .contactus {
+        margin-top: -100px;
+    }
+    footer .links {
+        margin-top: -120px;
+    }
+    footer .socialLinks {
+        margin-top: 20px
+    }
+}
+
+.container .books .book h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}

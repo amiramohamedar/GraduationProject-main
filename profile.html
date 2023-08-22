@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/media.min.css">
+    <title>📚story</title>
+</head>
+
+<body>
+
+    <!--Start Navbar-->
+
+    <nav>
+
+        <div class="container">
+
+            <div class="logo">
+
+                <a href="index.html"> <img src="./images/book.png" alt="logo">Hadoota</a>
+
+            </div>
+
+            <!--search input-->
+
+            <form>
+                <input type="search" name="search" placeholder="search" value="">
+
+                <button type="button"><i class="fa fa-search"></i></button>
+            </form>
+
+            <!--start nav links -->
+
+
+            <ul class="navLinks hidden">
+
+                <li class="active"><a href="index.html">Home</a></li>
+
+
+                <li class="services">
+                    <a href="#">services</a><i class="fa fa-caret-down"></i>
+
+                    <ul class="servicesBox hidden">
+                        <li><a href="translation.html">translation</a></li>
+                        <li><a href="bookshelf.html">Bookshelf</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="aboutus.html">About </a></li>
+
+
+                <li class="sign"><a href="Sign.html"> signIn / signUp</a></li>
+
+
+
+
+            </ul>
+
+            <div class="navIcons">
+
+                <a href="Sign.html" class="userIcon"><img src="./images/profile-user (3).png"></a>
+                                <a href="#" class="Menu"> <i class="fa fa-bars"></i></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--end Navbar-->
+
+
+    <div class="rightProfileBox">
+
+        <form>
+
+            <ul>
+
+                <!--    
+            <li> <a href="#">MyProfile</a></li>
+            <li> <a href="#">about</a></li>
+            <li> <a href="#">Help</a></li>
+            <li> <a href="#">uploads</a></li>
+            -->
+
+                <li class="image">
+
+                    <img src="./images/profile-user.png">
+                    <div class="upload">
+                        <p class="adding"> + </p>
+                        <input type="file" name="upload" value="">
+                    </div>
+
+                    <p class="user">ZenabMo123</p>
+
+                </li>
+
+                <li class="email">
+                    <p>Email :</p>
+                    <a mailto="zenabm410@gmail.com">zenabm410@gmail.com</a>
+                </li>
+
+                <li> <a href="#">favourites</a></li>
+
+
+                <li> <a href="#">logout</a></li>
+
+            </ul>
+
+        </form>
+
+    </div>
+
+
+    <section class="profile">
+
+        <form>
+
+
+            <div class="userImages">
+
+
+                <div class="image">
+                    <div class="overflow">
+
+                        <div class="upload">
+                            <p> Upload Profile Image</p>
+                            <input type="file" name="upload" value="">
+                        </div>
+
+                    </div>
+                    <img src="./images/profile-user.png">
+                </div>
+            </div>
+
+
+
+
+            <div class="container">
+
+
+                <div class="user">
+                    <label for="user">@UserName</label>
+                    <input type="text" name="userName" placeholder="Enter Your Name" value="" id="user">
+                </div>
+
+
+
+                <div class="Email">
+
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" placeholder="Enter Your Mail" value="" id="Email">
+                </div>
+
+
+                <div class="birthday">
+                    <label for="BirthDay">BirthDay</label>
+                    <input type="Date" name="BirthDay" value="" id="BirthDay">
+                </div>
+
+                <div class="phone">
+                    <label for="Phone">Phone Number</label>
+                    <input type="tel" name="phoneNumber" value="" id="phone" placeholder="enter your phone Number" pattern="[0-9]{11}" required>
+                </div>
+
+                <div class=" password ">
+                    <label for="password ">Password</label>
+                    <input type="password " name="password" value="" placeholder="enter your phone Number" id="password ">
+
+                </div>
+
+                <div class="confirmpass ">
+                    <label for="confirmPassword ">Confirm Password</label>
+                    <input type="password" name="password " value="" placeholder="enter your phone Number" id="confirmPassword ">
+                </div>
+
+
+                <div class="submit">
+
+                    <input type="submit" name="submit" value="Save">
+                </div>
+            </div>
+
+        </form>
+
+    </section>
+
+
+
+
+
+    <!--start footer-->
+
+    <footer>
+
+        <div class="container ">
+
+            <!--footer Links-->
+            <div class="links ">
+                <h3>links</h3>
+                <ul class="footerLinks ">
+
+                    <li><a href="# ">About</a> </li>
+                    <li class="services "><a href="# ">services</a> </li>
+                    <li><a href="bookshelf.html ">bookshelf</a></li>
+                    <li><a href="# ">kidsZone</a></li>
+                    <li class="sign "><a href="# "> signIn / signUp</a></li>
+                </ul>
+            </div>
+
+            <!--footer social contact-->
+            <div class="socialLinks social ">
+
+                <h2>You can join our community on social media!</h2>
+                <ul>
+                    <li>
+
+                        <a href="# " class="icon hvr-ripple-out "><i class="fab fa-facebook-f "></i></a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="# " class="icon hvr-ripple-out "><i class="fab fa-linkedin-in "></i></a>
+
+
+                    </li>
+                    <li>
+
+                        <a href="# " class="icon hvr-ripple-out "><i class="fab fa-vimeo-v "></i>
+        </a>
+
+
+                    </li>
+                </ul>
+
+            </div>
+
+            <!--contact us email-->
+
+            <div class="contactus ">
+
+                <h3>contact us</h3>
+
+                <a href="mailto:mail@gmail.com ">mail@gmail.com</a>
+                <a href="mailto:info@gmail.com ">info@gmail.com</a>
+            </div>
+
+
+            <div class="copyRight "> &copy; Copyright 2021 All Rights Reserved</div>
+        </div>
+
+    </footer>
+    <script src="js/jquery-3.5.1.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>

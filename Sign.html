@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Montserrat font semibold  font-family: 'Montserrat', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!--work sans font Regular  font-family: 'Work Sans', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/media.min.css">
+    <title> 📚 Sign</title>
+</head>
+
+<body>
+
+    <!--Start Navbar-->
+
+    <nav>
+
+        <div class="container">
+
+            <div class="logo">
+
+                <a href="index.html"> <img src="./images/book.png" alt="logo">Hadoota</a>
+
+            </div>
+
+            <!--search input-->
+
+            <form>
+                <input type="search" name="search" placeholder="search" value="">
+
+                <button type="button"><i class="fa fa-search"></i></button>
+            </form>
+
+            <!--start nav links -->
+
+
+            <ul class="navLinks hidden">
+
+                <li><a href="index.html">Home</a></li>
+
+
+                <li class="services">
+                    <a href="#">services</a><i class="fa fa-caret-down"></i>
+
+                    <ul class="servicesBox hidden">
+                        <li><a href="translation.html">translation</a></li>
+                        <li><a href="bookshelf.html">Bookshelf</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="aboutus.html">About </a></li>
+
+
+                <li class="sign active"><a href="Sign.html"> signIn / signUp</a></li>
+
+
+
+
+            </ul>
+
+            <div class="navIcons">
+
+                <a href="Sign.html" class="userIcon"><img src="./images/profile-user (3).png"></a>
+                <a href="#" class="Menu"> <i class="fa fa-bars"></i></a>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!--end Navbar-->
+    <!--breadCrumb-->
+
+
+    <ul class="breadCrumb">
+        <li> <a href="index.html"> Home </a></li>
+
+        <span> / </span>
+
+        <li class="active"> <a href="sign.html"> Sign </a></li>
+
+    </ul>
+
+
+    <div class="rightProfileBox">
+
+        <form>
+
+            <ul>
+
+                <!--    
+            <li> <a href="#">MyProfile</a></li>
+            <li> <a href="#">about</a></li>
+            <li> <a href="#">Help</a></li>
+            <li> <a href="#">uploads</a></li>
+            -->
+
+                <li class="image">
+
+                    <img src="./images/profile-user.png">
+                    <div class="upload">
+                        <p class="adding"> + </p>
+                        <input type="file" name="upload" value="" accept="image/*" capture="camera">
+                    </div>
+
+                    <p class="user">ZenabMo123</p>
+
+                </li>
+
+                <li class="email">
+                    <p> <i class="far fa-envelope"></i> Email :</p>
+                    <a mailto="zenabm410@gmail.com">zenabm410@gmail.com</a>
+                </li>
+
+                <li><i class="fas fa-heart"></i> <a href="#">favourites</a></li>
+
+
+                <li> <i class="fas fa-sign-out-alt"></i><a href="#">logout</a></li>
+
+            </ul>
+
+        </form>
+
+    </div>
+
+    <section class="Sign">
+
+        <div class="container">
+
+
+
+            <div class="signUp hiden" id="signup">
+                <ul class="signLinks">
+                    <li class="" data-class="signIn"><a href="#signin" data-id="signin">Sign in</a></li>
+                    <li class="active" data-class="signUp"> <a href="#signup" data-id="signup">Sign up ☕</a></li>
+                </ul>
+
+
+
+                <h2>Register </h2>
+
+                <form action="#" method="post">
+
+                    <label for="userName">
+                        Username <span>*</span>
+                        </label>
+                    <div class="continput">
+
+                        <button class="icon"><i class="fa fa-user-friends"></i></button>
+                        <input id="userName" type="text" name="userName" value="" placeholder="userName" required>
+
+                    </div>
+
+
+                    <label for="email"> Email <span>*</span>
+                        </label>
+                    <div class="continput">
+
+
+                        <button class="icon"><i class="fa fa-envelope"></i></button>
+                        <input id="email" name="email" value="" type="email" placeholder="Email" required>
+                    </div>
+
+                    <label for="password">
+                        
+                        Password <span>*</span>
+                        </label>
+                    <div class="continput">
+
+                        <button class="icon"><i class="fas fa-lock"></i></button>
+                        <input id="password" type="password" name="password" value="" placeholder="Password" required>
+                    </div>
+
+                    <label for="confirmPassword">
+                         confirm password <span>*</span>
+                         </label>
+                    <div class="continput">
+                        <button class="icon"><i class="fas fa-lock"></i></button>
+                        <input id="confirmPassword" type="password" name="confirmPassword" value="" placeholder="confirm password">
+                    </div>
+
+                    <button type="submit" name="submit">Sign up 📓  </button>
+
+                </form>
+            </div>
+
+            <div class="signIn" id="signin">
+
+                <ul class="signLinks">
+                    <li class="active" data-class="signIn"><a href="#signin" data-id="signin">Sign in</a></li>
+                    <li class="" data-class="signUp"> <a href="#signup" data-id="signup">Sign up ☕</a></li>
+
+
+                </ul>
+
+                <h2>Sign in</h2>
+
+                <form action="#" method="post">
+
+                    <label for="user">Username <span>*</span></label>
+
+                    <div class="continput">
+
+                        <button class="icon"><i class="fa fa-user-friends"></i></button>
+                        <input id="user" type="text" name="user" value="" placeholder="user" required>
+                    </div>
+
+
+                    <label for="passwordLogIn">Password <span>*</span></label>
+
+                    <div class="continput">
+
+
+                        <button class="icon"><i class="fa fa-lock"></i></button>
+
+                        <input id="passwordLogIn" type="password" name="passwordLogIn" value="" placeholder="Password" required>
+                    </div>
+
+                    <div class="submit">
+
+
+                        <label for="rememberMe">
+                    <input id="rememberMe" type="checkbox" name="rememberMe" value="Remember me" class="checkbox">
+                    Remember me
+                   </label>
+                        <a href="#" target="_blank">forgot your password ?</a>
+
+                        <button type="submit" name="submit"> submit  📓</button>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <!--loader-->
+
+    <div id="loader">
+
+        <div class="loadingBook">
+            <div class="inner">
+                <div class="left"></div>
+                <div class="middle"></div>
+                <div class="right"></div>
+            </div>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="message" id="msg"></div>
+
+
+
+    </div>
+
+
+
+    <!--start footer-->
+
+    <footer>
+
+        <div class="container">
+
+            <!--footer Links-->
+            <div class="links">
+                <h3>links</h3>
+                <ul class="footerLinks">
+
+                    <li><a href="index.html">Home</a> </li>
+                    <li class="services"><a href="index.html#services">services</a></li>
+
+                    <li><a href="aboutus.html">About</a></li>
+
+
+                </ul>
+            </div>
+
+            <!--footer social contact-->
+            <div class="socialLinks social">
+
+                <h2>You can join our community on social media!</h2>
+                <ul>
+                    <li>
+
+                        <a href="#" class="icon hvr-ripple-out"><i class="fab fa-facebook-f"></i></a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#" class="icon hvr-ripple-out"><i class="fab fa-linkedin-in"></i></a>
+
+
+                    </li>
+                    <li>
+
+                        <a href="#" class="icon hvr-ripple-out"><i class="fab fa-vimeo-v"></i>
+                      </a>
+
+
+                    </li>
+                </ul>
+
+
+
+                <div class="copyRight"> &copy; Copyright 2021 All Rights Reserved</div>
+
+
+            </div>
+
+            <!--contact us email-->
+            <div class="contactus">
+
+                <h3>contact us</h3>
+
+                <a href="mailto:HR@hadoota.com">HR@hadoota.com</a>
+                <a href="mailto:info@hadoota.com">info@hadoota.com</a>
+            </div>
+
+            <div class="copyRight2"> &copy; Copyright 2021 All Rights Reserved</div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
